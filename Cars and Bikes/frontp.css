@@ -1,0 +1,37 @@
+.lin{
+    background-color: black;
+    padding: 10px;
+    display: 
+
+}
+.lin a{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 14px;
+    color: white;
+
+}
+.lin a:hover{
+    background-color: gray;
+    text-decoration: none;
+
+
+}
+.left{
+    float: left;
+    background-color: darkgray;
+}
+section {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+ .forjumbo{
+     padding: 2px;
+     margin: 0px;
+     background-color: white;
+     float: left;
+ }

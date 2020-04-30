@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gaddi.com
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="gfg.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="frontpage.css">
+
+
+
+
+
+
+
+
+  <script>
+    function changeLanguage(language) {
+      var element = document.getElementById("url");
+      element.value = language;
+      element.innerHTML = language;
+    }
+    function showDropdown() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+  <div class="topnav">
+    <a id="logo">Gaddi.com</a>
+
+    <a class="active" href="division.html" target="main">Home</a>
+    <a href="news.html" target="main">Cars</a>
+    <a href="contact.html" target="mid">Bikes</a>
+    <a href="aboutme.html" target="mid"></a>
+  </div>
+
+
+
+  <div class="header">
+
+
+    <div class="dropdown">
+
+      <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <div id="myDropdown" class="dropdown-content">
+        <a href="loginpage.html">Login</a>
+        <a href="#about">Sign up</a>
+        <a href="#contact">Loans</a>
+        <a href="#contact">Sell Us</a>
+        <a href="#contact">Buy</a>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+  <div class="slider" class="contai">
+    <figure>
+      <a href="www.google.com" target"-blank"><img src="5.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+      <a href="www.google.com" target"-blank"><img src="2.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+      <a href="www.google.com" target"-blank"><img src="3.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+      <a href="www.google.com" target"-blank"><img src="4.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+      <a href="www.google.com" target"-blank"><img src="7.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+      <a href="www.google.com" target"-blank"><img src="6.jpg" alt=""></a>
+      <div class="bottom-left">Bottom Left</div>
+    </figure>
+
+  </div>
+  <footer>
+    <ol>
+      <li><a><i class="fa fa-facebook-official"></i></a></li>
+      <li><a><i class="fa fa-twitter"></i></a></li>
+      <li><a><i class="fa fa-linkedin"></i></a></li>
+      <li><a><i class="fa fa-google-plus"></i></a></li>
+
+    </ol>
+    <div class="foo">
+      <a href="#" class="tk">About Us</a>
+      <a href="#" class="tk">Advertise With Us</a>
+      <a href="#" class="tk">Contact Us</a>
+      <a href="#" class="tk">Products</a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
