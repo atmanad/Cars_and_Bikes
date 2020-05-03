@@ -16,9 +16,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>practice1</title>
     <style>
-	*{margin:0px;
-	padding:0px;
-	}
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
         .gt {
             font-size: 3vw;
         }
@@ -112,6 +114,14 @@
         .con {
             background-color: white;
         }*/
+        .scroll {
+            overflow-y: scroll;
+        }
+
+        .scroll::-webkit-scrollbar {
+            display: none;
+        }
+
 
         footer {
             width: 100%;
@@ -119,7 +129,7 @@
             margin: auto;
             background: #272727;
             bottom: 0;
-			position:fixed;
+            position: relative;
 
         }
 
@@ -170,7 +180,7 @@
     </style>
 </head>
 
-<body>
+<body class="scroll">
     <!--navigation bar-->
     <div class="navbar navbar-default">
         <div class="container">
@@ -350,9 +360,9 @@
 
         </ul>
 		-->
-		
-		
-	  <div class="container">
+
+
+    <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail">
@@ -379,8 +389,10 @@
                 </div>
             </div>
 
-    </div>
-	<div class="row">
+        </div>
+
+
+        <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail">
                     <img src="images\4.jpeg" alt="" style="width: 100%">
@@ -406,10 +418,40 @@
                 </div>
             </div>
 
-    </div>
-</div>
+        </div>
 
-    <!--</footer>-->
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="images\4.jpeg" alt="" style="width: 100%">
+                    <div class="caption">caption</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="images\4.jpeg" alt="" style="width: 100%">
+                    <div class="caption">caption</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="images\4.jpeg" alt="" style="width: 100%">
+                    <div class="caption">caption</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="images\4.jpeg" alt="" style="width: 100%">
+                    <div class="caption">caption</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
 
     <footer>
         <ol>
